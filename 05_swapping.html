@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        var a = prompt('Please Enter the value: ');
+        var b= prompt('Please enter the b value: ');
+        console.log(`The value of a is : ${a},The value of b is :${b}`);
+        var temp;
+        //a=5,b=6;
+        temp=a;//temp=5;
+        a=b;
+        b=temp;
+        console.log(`;After swapping The value of a is : ${a},The value of b is :${b}`);
+
+
+        //Another way
+
+        var a= parseInt(prompt('Enter The value of a :'));
+        var b= parseInt(prompt('Enter The value of b :'));
+        console.log(`Before swappig the value of a :${a} and the value of b :${b}`);
+        //a=5,b=6
+        var c;
+        c=a+b;//5+6=11
+        b=c-b//11-6=5
+        a=c-a//11-5=6
+        console.log(`After swappig the value of a :${a} and the value of b :${b}`);
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
